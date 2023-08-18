@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  background-color: #3f5d9a;
+  align-items: flex-end;
+  padding: 0px 200px;
+}
+.flex-container > div {
+  flex: 1;
+}
+body,
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-text {
+  color: white;
+  font-size: small;
+}
+.login-button {
+  display: inline-block;
+  background-color: #3f5d9a;
+  border: 1px solid darkblue;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  align-self: center;
+}
+.logo {
+  width: 150px;
+  padding-bottom: 10px;
+}
+.login-form {
+  display: flex;
+  padding: 5px 0px;
+}
+.flex-container2 {
+  display: flex;
+}
+.flex-container2 > div {
+  flex: 1;
+}
+.facebook-connect {
+  font-size: large;
+  font-weight: bold;
+  color: #183369;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-right: 90px;
+}
+.connect-p {
+  padding-top: 30px;
+  display: block;
+  padding-left: 220px;
+}
+.head1 {
+  font-family: Arial, sans-serif;
+  color: rgb(31, 31, 31);
+  padding-top: 20px;
+}
+.login-form2 {
+  display: flex;
+  padding: 5px 0px;
+}
+.question {
+  height: 15px;
+  width: 15px;
+}
+.facebook-connect2 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: justify;
+  padding-top: 20px;
+}
+.caption {
+  font-family: Arial, sans-serif;
+}
+.formname {
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+}
+.radio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.signbtn {
+  background-color: #06ab40;
+  border-radius: 3px;
+  border-color: #028a31;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  outline-color: white;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
