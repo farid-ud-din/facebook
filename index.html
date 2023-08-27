@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
     <link rel="stylesheet" href="css/bs5.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -20,7 +22,7 @@
             <img src="./images/logo.png" alt="facebook" class="w-25 pt-lg-3" />
           </div>
 
-          <form class="col-12 col-lg-2 pt-lg-0 pt-3">
+          <form class="col-12 col-md-6 col-lg-2 pt-lg-0 pt-md-3">
             <label class="form-text form-label" for="fname"
               >Email or Phone:</label
             >
@@ -32,7 +34,7 @@
             />
           </form>
 
-          <form class="col-12 col-lg-2 pt-lg-0 pt-5">
+          <form class="col-12 col-md-6 col-lg-2 pt-lg-0 pt-md-3 pt-5">
             <div>
               <label class="form-text form-label" for="lname">Password:</label>
               <input
@@ -48,7 +50,7 @@
           </form>
 
           <div
-            class="col-md-12 col-lg-2 d-flex align-items-center justify-content-lg-start justify-content-md-center pt-lg-0 pt-5 pb-lg-0 pb-5"
+            class="col-12 col-lg-2 d-flex align-items-center justify-content-lg-start justify-content-center pt-lg-0 pt-5 pb-lg-0 pb-5"
           >
             <button class="login-button">Log in</button>
           </div>
@@ -80,59 +82,57 @@
           <div class="col-lg-6 d-none d-lg-flex">
             <img src="./images/map.png" alt="connecting-people" />
           </div>
-          <div class="col-lg-6 d-flex flex-column align-self-center">
-            <form>
+          <form class="col-12 col-lg-5 d-flex flex-column align-self-center">
+            <div
+              class="d-flex flex-md-row flex-column justify-content-lg-start justify-content-md-between justify-content-center"
+            >
               <div
-                class="d-flex justify-content-lg-start justify-content-center"
-              >
-                <div>
-                  <input
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    placeholder="First name"
-                    class="login-form2 p-2"
-                    size="15"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    id="lname"
-                    name="lname"
-                    placeholder="Last name"
-                    class="login-form2 p-2"
-                    style="margin-left: 18px"
-                    size="15"
-                  />
-                </div>
-              </div>
-              <div
-                class="d-flex justify-content-lg-start justify-content-center pt-3"
+                class="d-flex justify-content-lg-start justify-content-md-center justify-content-center"
               >
                 <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Mobile number or email address"
-                  class="login-form2 p-2"
-                  size="38"
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="First name"
+                  class="login-form2 p-2 w-100 m-1"
                 />
               </div>
               <div
-                class="d-flex justify-content-lg-start justify-content-center pt-3"
+                class="d-flex justify-content-lg-start justify-content-md-center justify-content-center"
               >
                 <input
-                  type="password"
-                  id="password"
-                  name="password"
-                  placeholder="New password"
-                  class="login-form2 p-2"
-                  size="38"
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  placeholder="Last name"
+                  class="login-form2 p-2 w-100 m-1"
                 />
               </div>
-            </form>
-          </div>
+            </div>
+            <div
+              class="d-flex justify-content-lg-start justify-content-center pt-md-3"
+            >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Mobile number or email address"
+                class="login-form2 p-2 m-1 w-100"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-lg-start justify-content-center pt-md-3"
+            >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="New password"
+                class="login-form2 p-2 m-1 w-100"
+              />
+            </div>
+          </form>
+          <div class="col-lg-1"></div>
         </div>
       </div>
     </section>
@@ -142,7 +142,7 @@
           <div class="col-lg-6"></div>
           <div class="col-lg-6">
             <div
-              class="formname pt-2 pb-1 d-flex justify-content-lg-start justify-content-center"
+              class="formname pt-4 pb-1 d-flex justify-content-lg-start justify-content-center"
             >
               Birthday
             </div>
@@ -235,14 +235,14 @@
               </select>
               <a href="#"
                 ><i
-                  class="bi bi-question-circle-fill"
+                  class="bi bi-question-circle-fill p-2"
                   style="font-size: 18px; color: rgb(112, 112, 112)"
                 ></i
               ></a>
             </div>
 
             <div
-              class="formname pt-2 pb-1 d-flex justify-content-lg-start justify-content-center"
+              class="formname pt-4 pb-1 d-flex justify-content-lg-start justify-content-center"
             >
               Gender
             </div>
@@ -272,7 +272,7 @@
               </div>
             </form>
             <div
-              class="facebook-connect2 mt-2 d-flex justify-content-lg-start justify-content-center"
+              class="facebook-connect2 mt-4 d-flex justify-content-lg-start justify-content-center"
             >
               <div>
                 By clicking Sign Up, you agree to our
@@ -283,9 +283,9 @@
               </div>
             </div>
             <div
-              class="mt-4 d-flex justify-content-lg-start justify-content-center"
+              class="mt-4 mb-5 d-flex justify-content-lg-start justify-content-center"
             >
-              <a href="#" class="signbtn">Sign Up</a>
+              <a href="#" class="signbtn btn">Sign Up</a>
             </div>
           </div>
         </div>
